@@ -65,7 +65,7 @@ public class Q2_Solution {
 		return false;	
 	}
 	
-	
+	/*
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("Please input the widthm, length of the 2D board and the tested word:");
@@ -97,5 +97,6 @@ public class Q2_Solution {
 		}
 		sc.close();
 	}
+	*/
 
 }
