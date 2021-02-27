@@ -1,0 +1,8 @@
+Type,Status,Priority,Resolution,Affect Version/s,Fix Version/s,Components/s,Assignee,Reporter,Votes,Watchers,Created,Updated,Resolved,Description,Comments
+Task,Open,Major,Unresolved,None,3.9.0,karaf,Andrea Cosentino,Andrea Cosentino,0,2,17/Feb/21 06:26,18/Feb/21 19:37,N/A,N/A,"Andrea Cosentino:2021-02-17T06:29:22.833+0000:[~rmarcello] feel free to work on this. You'll need to have look at https://github.com/apache/camel-karaf/
+
+in particular at this file: [https://github.com/apache/camel-karaf/blob/master/platforms/karaf/features/src/main/resources/features.xml]
+
+After adding the feature, under platforms/karaf/features just run mvn verify and check if it works.
+
+Let me know if you intend to work on this, otherwise I'll go ahead.Raffaele Marcello:2021-02-17T07:36:15.197+0000:Ok, I will try, I am new on this maybe I will need a bit more.Raffaele Marcello:2021-02-18T19:37:59.708+0000:Hi, is there a way to securely and automatically provide the bundle list ? Can I read something somewhere?"
