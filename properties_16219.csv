@@ -1,3 +1,0 @@
-Type,Status,Priority,Resolution,Affect Version/s,Fix Version/s,Components/s,Assignee,Reporter,Votes,Watchers,Created,Updated,Resolved,Description,Comments
-Improvement,Open,Major,Unresolved,None,3.9.0,camel-core,Unassigned,Claus Ibsen,0,1,16/Feb/21 12:16,16/Feb/21 12:16,N/A,"Currently template parameters requires a value so either they are mandatory or has a default value.
-But there can be some use-cases where you want an optional parameter, and if there is no value, then its not in use, eg in endpoint uris as part of query parameters (key=value) then if no value then dont include the key.",N/A,
