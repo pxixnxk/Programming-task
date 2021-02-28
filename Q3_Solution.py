@@ -44,7 +44,7 @@ def crawl(issuekey):
         print(com_json)
 
     # Select only elements containing certain properties and write to .csv file
-    with open(outputFile, 'a+') as csvFile:
+    with open(outputFile, 'a') as csvFile:
         writer = csv.writer(csvFile)
         vals = ["CAMEL-{}".format(issuekey)]
         for name, elementId in propertyIdMap:
