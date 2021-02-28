@@ -93,9 +93,9 @@ public class Q2_Solution {
 			if(word.equals("#"))
 				break;
 			if(Check(board, word))
-				System.out.println("true. (Enter '#' to exit)" );
+				System.out.println("TRUE. (Enter '#' to exit)" );
 			else
-				System.out.println("false. (Enter '#' to exit)");
+				System.out.println("FALSE. (Enter '#' to exit)");
 		}
 		sc.close();
 	}
